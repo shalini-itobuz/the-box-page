@@ -13,8 +13,11 @@
     <!-- NAV SECTION BEGIN-->
     <nav class="navbar">
       <div class="logo">
-        <img src="./images/navbar/box.png" alt="LOGO" />
-        <a href="#" style="color: #2947A9;"> <i>The</i>Box</a>
+        
+        <a href="#" style="color: #2947A9;"> <img src="./images/navbar/box.png" alt="LOGO" /><h2><i>The</i>Box</h2></a>
+        <div class="hamburger">
+          ☰
+        </div>
       </div>
       <div class="nav-items">
         <a href="#">Home</a>
@@ -54,7 +57,7 @@
       <h2 class="ourrepu">Our Reputation</h2>
       <div class="reason-cards">
         <div class="reason-best-service">
-          <img src="./images/reputation/icon.png" alt="" />
+          <img src="./images/reputation/icon.png" alt="reason-card1" />
           <br>
           <h3>Best Services</h3>
           <br>
@@ -62,7 +65,7 @@
         </div>
   
         <div class="reason-best-teams">
-          <img src="./images/reputation/icon.png" alt="" />
+          <img src="./images/reputation/icon.png" alt="reason-card2" />
           <br>
           <h3>Best Teams</h3>
           <br>
@@ -70,7 +73,7 @@
           
         </div>
         <div class="reason-best-designs">
-          <img src="./images/reputation/icon.svg" alt="" />
+          <img src="./images/reputation/icon.svg" alt="reason-card3" />
           <br>
           <h3>Best Designs</h3>
           <br>
@@ -81,122 +84,147 @@
   
 
     <!-- ABOUT US SECTION  -->
-    <section class="aboutus-section">
+    <section class="aboutus">
+      <span id="aboutus-section"></span>
+      <div class="about-wrapper">
+        <div class="about-hero-img"></div>
+        <div class="about-text">
+          <h2>About us</h2>
+          <h3>
+            For more than 30 years we have been delivering world-class
+            construction and we've built many lasting relationships along the
+            way.
+          </h3>
+          <h3>
+            We've matured into an industry leader and trusted resource for those
+            seeking quality, innovation and reliability when building in the
+            U.S.
+          </h3>
+          <br>
+          <br>
 
-      <div class="about-text">
-        <h2 style="font-size: 30px;">About Us</h2>
-        <br>
-        <p>
-          For more than 30 years we have been delivering world-class
-          construction and we’ve built many lasting relationships along the way.
-          <br /><br />We’ve matured into an industry leader and trusted resource
-          for those seeking quality, innovation and reliability when building in
-          the U.S.
-        </p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <button class="histbutt">More on our History</button>
+          <button>More on Our History</button>
+        </div>
       </div>
     </section>
 
 
     <!-- SERVICE SECTION  -->
-    <section class="service-section">
+    <section class="services" id="services-section">
       <h2>Services</h2>
-      <div class="service-cards">
-        <div id="construction-card">
+      <div class="services-wrapper">
+        <div class="services-card background-white">
           <img
             src="./images/services/icon1.png"
-            alt="img1"
+            width="40px"
+            height="40px"
+            alt="construction-card"
           />
-          <hr style="color: white; width: 80px; height: 2px;" />
-          <p>Construction</p>
+          <div class="background-blue"></div>
+          <h3>construction</h3>
         </div>
-        <div id="renovation-card">
+        <div class="services-card background-blue">
           <img
             src="./images/services/icon2.png"
-            alt="img2"
-          /><hr style="color: white; width: 80px; height: 2px;" />
-          <p>Renovation</p>
+            width="40px"
+            height="40px"
+            alt="renovation-card"
+          />
+          <div class="background-white"></div>
+          <h3>renovation</h3>
         </div>
-        <div id="consultation-card">
+        <div class="services-card background-white">
           <img
             src="./images/services/icon3.png"
-            alt="img3"
-          /><hr style="color: white; width: 80px; height: 2px;" />
-          <p>Consultation</p>
+            width="40px"
+            height="40px"
+            alt="consultation-card"
+          />
+          <div class="background-blue"></div>
+          <h3>consultation</h3>
         </div>
-        <div id="repair-service-card">
+        <div class="services-card background-blue">
           <img
             src="./images/services/icon4.png"
-            alt="img4"
-          /><hr style="color: white; width: 80px; height: 2px;" />
-          <p>Repair Services</p>
+            width="40px"
+            height="40px"
+            alt="repair-card"
+          />
+          <div class="background-white"></div>
+          <h3>repair</h3>
         </div>
-        <div id="architecture-card">
+        <div class="services-card background-white">
           <img
             src="./images/services/icon5.png"
-            alt="img5"
-          /><hr style="color: white; width: 80px; height: 2px;" />
-          <p>Architecture</p>
+            width="40px"
+            height="40px"
+            alt="architecture-card"
+          />
+          <div class="background-blue"></div>
+          <h3>architecture</h3>
         </div>
-        <div id="electric-card">
-          <img src="./images/services/icon6.png"
-           alt="img6" 
-           /><hr style="color: white; width: 80px; height: 2px;" />
-          <p>Electric</p>
+        <div class="services-card background-blue">
+          <img
+            src="./images/services/icon6.png"
+            width="40px"
+            height="40px"
+            alt="electric-card"
+          />
+          <div class="background-white"></div>
+          <h3>electric</h3>
         </div>
       </div>
     </section>
-  
 
     <!-- STATS SECTION-->
-    <section class="experience-section"></section>
-    <div class="stats">
-      <div class="overlap-group">
-        <div class="stats-2">
-          <div class="element">123</div>
-          <div class="frame">
-            <div class="rectangle-2"></div>
-            <div class="text-wrapper-11">Projects Completed</div>
-          </div>
+    <section class="experience-section">
+      <div class="experience-section-left">
+        <div class="project-completed">
+          <h5>123</h5>
+          <p class="left-content">Project Completed</p>
         </div>
-        <div class="stats-3">
-          <div class="element">84</div>
-          <div class="frame-2">
-            <div class="rectangle-2"></div>
-            <div class="text-wrapper-11">Happy Clients</div>
-          </div>
+        <div class="happy-clients">
+          <h5>84</h5>
+          <p class="left-content">Happy Clients</p>
         </div>
-        <div class="stats-4">
-          <div class="element">30</div>
-          <div class="frame">
-            <div class="rectangle-2"></div>
-            <div class="text-wrapper-11">Years in Business</div>
-          </div>
+        <div class="business-years">
+          <h5>30</h5>
+          <p class="left-content">Business Year</p>
         </div>
-        <div class="stats-5">
-          <div class="element">37</div>
-          <div class="frame-3">
-            <div class="rectangle-2"></div>
-            <div class="awardwin">Awards Win</div>
-          </div>
+        <div class="awards-win">
+          <h5>37</h5>
+          <p class="left-content">Awards Win</p>
         </div>
-        <img class="illus" src="./images/stats/img2.png" />
-        <img class="illus-2" src="./images/stats/img4.png" />
-        <img class="illus-3" src="./images/stats/img3.png" />
-        <img class="illus-4" src="./images/stats/img1.png" />
+        <img
+          src="./images/stats/img1.png"
+          alt="project completed"
+          class="project-completed-image"
+        />
+        <img
+          src="./images/stats/img2.png"
+          alt="hand"
+          class="handshake"
+        />
+        <img
+          src="./images/stats/img3.png"
+          alt="business year"
+          class="business-year-image"
+        />
+        <img
+          src="./images/stats/img4.png"
+          alt="awards"
+          class="awards"
+        />
       </div>
-      <div class="stats-right">
-        <div class="text-wrapper-12">30 Years Experience</div>
-        <p class="compconst">
-          Our company has been the leading provided construction services to clients throughout the USA since 1988.
+      <div class="experience-section-right">
+        <h3>30 Years Experience</h3>
+        <p>
+          Our company has been the leading provided construction services to
+          clients throughout the USA since 1988
         </p>
-        <button class="button"><div class="learn-more">Contact Us</div></button>
+        <button class="form-button">Contact Us</button>
       </div>
-    </div>
+    </section>
 
     <!-- ADS SECTION -->
     <section class="ads-section">
@@ -212,68 +240,55 @@
 
 
     <!-- PROJECTS SECTION -->
-    <section class="projects-section">
-      <div class="projects">
-        <div class="projectssec">Projects</div>
-        <div class="menu-item">
-          <div class="rectangle-3"></div>
-          <div  class="all"> All</div>
-        </div>
-        <div class="menu-item-2">
-          <div class="rectangle-4"></div>
-          <div class="all">Commercial</div>
-        </div>
-        <div class="menu-item-3">
-          <div class="rectangle-4"></div>
-          <div class="all">Residential</div>
-        </div>
-        <div class="menu-item-4">
-          <div class="rectangle-4"></div>
-          <div class="all">Other</div>
-        </div>
-        <div class="project-card">
-          <img class="img-2" src="./images/projects/card1.png" />
-          <div class="info">
-            <div class="PJ-name">Wildstone Infra Hotel</div>
-            <p class="address">2715 Ash Dr. San Jose, South Dakota</p>
+    <section class="project-section">
+      <div class="project-section-left">
+        <h6>Projects</h6>
+        <ul class="project-left-content">
+          <li class="all">All</li>
+          <li class="all">Commercial</li>
+          <li class="all">Residential</li>
+          <li class="all">Other</li>
+        </ul>
+      </div>
+      <div class="project-section-right">
+        <div class="project-section-right-top">
+          <div>
+            <img src="./images/projects/card1.png" alt="building" />
+            <div class="project-right-content">
+              <h6>Wildstone Infra Hotel</h6>
+              <p>2715 Ash Dr. San Jose, South Dakota</p>
+            </div>
+          </div>
+          <div>
+            <img
+              src="./images/projects/card2.png"
+              alt="building"
+            />
+            <div class="project-right-content">
+              <h6>Wish Stone Building</h6>
+              <p>2972 Westheimer Rd. Santa Ana, Illinois</p>
+            </div>
           </div>
         </div>
-        <div class="project-card-2">
-          <img class="img-2" src="./images/projects/card2.png" />
-          <div class="info">
-            <div class="PJ-name">Mr. Parkinston’s House</div>
-            <p class="address">3517 W. Gray St. Utica, Pennsylvania</p>
+        <div class="project-section-right-bottom">
+          <div>
+            <img src="./images/projects/card3.png" alt="building" />
+            <div class="project-right-content">
+              <h6>Mr. Parkinston’s House</h6>
+              <p>3517 W. Gray St. Utica, Pennsylvania</p>
+            </div>
           </div>
-        </div>
-        <div class="project-card-3">
-          <img class="img-2" src="./images/projects/card3.png" />
-          <div class="info">
-            <div class="PJ-name">Wish Stone Building</div>
-            <p class="address">2972 Westheimer Rd. Santa Ana, Illinois</p>
+          <div>
+            <img src="./images/projects/card4.png" alt="building" />
+            <div class="project-right-content">
+              <h6>Oregano Height</h6>
+              <p>2464 Royal Ln. Mesa, New Jersey</p>
+            </div>
+            
           </div>
+          
         </div>
-        <div class="project-card-4">
-          <img class="img-2" src="./images/projects/card4.png" />
-          <div class="info">
-            <div class="PJ-name">Oregano Height</div>
-            <p class="address">2464 Royal Ln. Mesa, New Jersey</p>
-          </div>
-        </div>
-        <div class="navigation">
-          <button class="backbutton"><span >
-            <i class="fa-solid fa-arrow-left"></i>
-          </span>Back</button>
-          <div class="navigation-dot-container">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <button class="nxtbutton">Next <Span>
-            <i class="fa-solid fa-arrow-right"></i>
-          </Span></button>
-        </div>
+        
       </div>
     </section>
 
@@ -299,9 +314,9 @@
     <!-- BOTTOM SECTION -->
     <section class="bottom-section">
       <div class="bottom-left">
-        <p><span>ADDRESS:</span>  6391 Elgin St. Celina, Delaware 10299</p>
-        <p><span>PHONE:</span> &nbsp;&nbsp; +84 1102 2703</p>
-        <p><span>EMAIL:</span> &nbsp;&nbsp;&nbsp;&nbsp; hello@thebox.com</p>
+        <p><span>ADDRESS:</span> <span  style="color:black;">6391 Elgin St. Celina, Delaware 10299</span></p>
+        <p><span>PHONE:</span> &nbsp;&nbsp;<span style="color:black" > +84 1102 2703</span></p>
+        <p><span>EMAIL:</span> &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:black" > hello@thebox.com</span></p>
         <div class="bottom-logo">
           <img src="./images/navbar/box.png" alt="LOGO" />
           <h2> <i>The</i>Box</h2>
@@ -315,9 +330,9 @@
         </div>
         <div class="bottom-social"> 
           <p class="social">SOCIAL: </p>
-          <img src="./images/social/facebook.png" alt="Facebook">
-          <img src="./images/social/linkedin.png" alt="LinkedIn">
-          <img src="./images/social/twitter.png" alt="Twitter">
+          <img  class="socialmedia" src="./images/social/facebook.png" alt="Facebook">
+          <img class="socialmedia" src="./images/social/linkedin.png" alt="LinkedIn">
+          <img class="socialmedia" src="./images/social/twitter.png" alt="Twitter">
         </div>
       </div>
     </section>
