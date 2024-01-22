@@ -6,6 +6,8 @@
 }
 body{
     font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 input:focus,
@@ -666,7 +668,7 @@ background-color:#c2c7d6
 }
 .bottom-newsletter  button {
   height: 40px;
-  width: 18`vw;
+  width: 18vw;
   border-radius: 3px;
   font-size: 15px;
   border: none;
@@ -920,7 +922,7 @@ background-color:#c2c7d6
   
     .project-txt {
       width: 380px;
-
+    }
     /* CTA SECTION BEGIN */
     .cta-section {
       height: 70vh;
@@ -928,10 +930,11 @@ background-color:#c2c7d6
   }
   .cta-section-form{
     max-width: 35rem;
+    display: grid !important;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(2, 1fr) 25vh;
       width: 50vw;
-      display: grid !important;
+      
   }
   .cta-section-form input {
       height: 5vh;
